@@ -15,12 +15,12 @@
       "traces": [
         {
           "id": null,
-          "location": "traces/Agent_Lane_Left_Collision.prob2trace",
+          "location": "traces/Agent_Slowing_Down.prob2trace",
           "selected": true
         },
         {
           "id": null,
-          "location": "traces/Agent_Slowing_Down.prob2trace",
+          "location": "traces/Agent_Lane_Left_Collision.prob2trace",
           "selected": true
         }
       ],
@@ -1678,10 +1678,10 @@
   "preferences": [],
   "metadata": {
     "fileType": "Project",
-    "formatVersion": 37,
-    "savedAt": "2023-08-25T07:09:40.034849Z",
+    "formatVersion": 38,
+    "savedAt": "2023-11-28T15:14:57.306607Z",
     "creator": "User",
-    "proB2KernelVersion": "4.12.2",
+    "proB2KernelVersion": "4.12.3-SNAPSHOT",
     "proBCliVersion": null,
     "modelName": null
   }
