@@ -1451,7 +1451,12 @@
       "outputParameterNames": [],
       "topLevel": true,
       "type": "CLASSICAL_B",
-      "readVariables": [],
+      "readVariables": [
+        "PresentVehicles",
+        "VehiclesVx",
+        "VehiclesX",
+        "VehiclesY"
+      ],
       "writtenVariables": [
         "Crash",
         "PresentVehicles",
@@ -1537,7 +1542,7 @@
   "metadata": {
     "fileType": "Trace",
     "formatVersion": 5,
-    "savedAt": "2023-11-28T15:10:44.634055Z",
+    "savedAt": "2023-12-11T11:10:20.929473Z",
     "creator": "traceReplay",
     "proB2KernelVersion": "4.12.3-SNAPSHOT",
     "proBCliVersion": "1.12.3-nightly",
