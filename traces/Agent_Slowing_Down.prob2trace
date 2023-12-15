@@ -159,13 +159,7 @@
       "outputParameterNames": [],
       "topLevel": true,
       "type": "CLASSICAL_B",
-      "readVariables": [
-        "Crash",
-        "PresentVehicles",
-        "VehiclesVx",
-        "VehiclesX",
-        "VehiclesY"
-      ],
+      "readVariables": [],
       "writtenVariables": [
         "Crash",
         "PresentVehicles",
@@ -206,12 +200,7 @@
       "outputParameterNames": [],
       "topLevel": true,
       "type": "CLASSICAL_B",
-      "readVariables": [
-        "PresentVehicles",
-        "VehiclesVx",
-        "VehiclesX",
-        "VehiclesY"
-      ],
+      "readVariables": [],
       "writtenVariables": [
         "Crash",
         "PresentVehicles",
@@ -252,11 +241,7 @@
       "outputParameterNames": [],
       "topLevel": true,
       "type": "CLASSICAL_B",
-      "readVariables": [
-        "PresentVehicles",
-        "VehiclesX",
-        "VehiclesY"
-      ],
+      "readVariables": [],
       "writtenVariables": [
         "Crash",
         "PresentVehicles",
@@ -297,12 +282,7 @@
       "outputParameterNames": [],
       "topLevel": true,
       "type": "CLASSICAL_B",
-      "readVariables": [
-        "PresentVehicles",
-        "VehiclesVx",
-        "VehiclesX",
-        "VehiclesY"
-      ],
+      "readVariables": [],
       "writtenVariables": [
         "Crash",
         "PresentVehicles",
@@ -343,13 +323,7 @@
       "outputParameterNames": [],
       "topLevel": true,
       "type": "CLASSICAL_B",
-      "readVariables": [
-        "Crash",
-        "PresentVehicles",
-        "VehiclesVx",
-        "VehiclesX",
-        "VehiclesY"
-      ],
+      "readVariables": [],
       "writtenVariables": [
         "Crash",
         "PresentVehicles",
@@ -389,10 +363,10 @@
   "metadata": {
     "fileType": "Trace",
     "formatVersion": 5,
-    "savedAt": "2023-12-14T12:01:50.868798Z",
+    "savedAt": "2023-12-15T21:01:02.846352Z",
     "creator": "traceReplay",
     "proB2KernelVersion": "4.12.3-SNAPSHOT",
     "proBCliVersion": "1.12.3-nightly",
-    "modelName": "HighwayEnvironment2"
+    "modelName": "HighwayEnvironment"
   }
 }
