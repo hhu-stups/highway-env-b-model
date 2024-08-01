@@ -14,10 +14,12 @@
       "testCases": [],
       "traces": [
         {
+          "id": null,
           "location": "traces/Agent_Slowing_Down.prob2trace",
           "selected": true
         },
         {
+          "id": null,
           "location": "traces/Agent_Lane_Left_Collision.prob2trace",
           "selected": true
         }
@@ -29,6 +31,7 @@
           "path": "HighwayEnvironment.py",
           "simulationItems": [
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.05,
@@ -42,6 +45,7 @@
               }
             },
             {
+              "id": null,
               "type": "ESTIMATION",
               "information": {
                 "MAX_STEPS_BEFORE_PROPERTY": 0,
@@ -55,6 +59,7 @@
               }
             },
             {
+              "id": null,
               "type": "ESTIMATION",
               "information": {
                 "MAX_STEPS_BEFORE_PROPERTY": 0,
@@ -68,6 +73,7 @@
               }
             },
             {
+              "id": null,
               "type": "ESTIMATION",
               "information": {
                 "MAX_STEPS_BEFORE_PROPERTY": 0,
@@ -81,6 +87,7 @@
               }
             },
             {
+              "id": null,
               "type": "ESTIMATION",
               "information": {
                 "MAX_STEPS_BEFORE_PROPERTY": 0,
@@ -94,6 +101,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.05,
@@ -107,6 +115,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.05,
@@ -120,6 +129,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.05,
@@ -133,6 +143,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.05,
@@ -146,6 +157,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.05,
@@ -164,6 +176,7 @@
           "path": "HighwayEnvironment_Base.py",
           "simulationItems": [
             {
+              "id": null,
               "type": "MONTE_CARLO_SIMULATION",
               "information": {
                 "MAX_STEPS_BEFORE_PROPERTY": 0,
@@ -172,6 +185,7 @@
               }
             },
             {
+              "id": null,
               "type": "MONTE_CARLO_SIMULATION",
               "information": {
                 "MAX_STEPS_BEFORE_PROPERTY": 0,
@@ -306,6 +320,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.001,
@@ -324,6 +339,7 @@
           "path": "HighwayEnvironment_Higher_Penalty_Collision.py",
           "simulationItems": [
             {
+              "id": null,
               "type": "MONTE_CARLO_SIMULATION",
               "information": {
                 "MAX_STEPS_BEFORE_PROPERTY": 0,
@@ -332,6 +348,7 @@
               }
             },
             {
+              "id": null,
               "type": "MONTE_CARLO_SIMULATION",
               "information": {
                 "MAX_STEPS_BEFORE_PROPERTY": 0,
@@ -466,6 +483,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.001,
@@ -484,6 +502,7 @@
           "path": "Traces_Base",
           "simulationItems": [
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.01,
@@ -496,6 +515,7 @@
               }
             },
             {
+              "id": null,
               "type": "ESTIMATION",
               "information": {
                 "MAX_STEPS_BEFORE_PROPERTY": 0,
@@ -508,6 +528,7 @@
               }
             },
             {
+              "id": null,
               "type": "ESTIMATION",
               "information": {
                 "MAX_STEPS_BEFORE_PROPERTY": 0,
@@ -520,6 +541,7 @@
               }
             },
             {
+              "id": null,
               "type": "ESTIMATION",
               "information": {
                 "MAX_STEPS_BEFORE_PROPERTY": 0,
@@ -532,6 +554,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.01,
@@ -544,6 +567,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.01,
@@ -556,6 +580,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.01,
@@ -568,6 +593,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.01,
@@ -580,6 +606,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.01,
@@ -592,6 +619,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.001,
@@ -604,6 +632,7 @@
               }
             },
             {
+              "id": null,
               "type": "ESTIMATION",
               "information": {
                 "MAX_STEPS_BEFORE_PROPERTY": 0,
@@ -621,6 +650,7 @@
           "path": "Traces_Higher_Penalty_Collision",
           "simulationItems": [
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.01,
@@ -633,6 +663,7 @@
               }
             },
             {
+              "id": null,
               "type": "ESTIMATION",
               "information": {
                 "MAX_STEPS_BEFORE_PROPERTY": 0,
@@ -645,6 +676,7 @@
               }
             },
             {
+              "id": null,
               "type": "ESTIMATION",
               "information": {
                 "MAX_STEPS_BEFORE_PROPERTY": 0,
@@ -657,6 +689,7 @@
               }
             },
             {
+              "id": null,
               "type": "ESTIMATION",
               "information": {
                 "MAX_STEPS_BEFORE_PROPERTY": 0,
@@ -669,6 +702,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.01,
@@ -681,6 +715,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.01,
@@ -693,6 +728,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.01,
@@ -705,6 +741,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.01,
@@ -717,6 +754,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.01,
@@ -729,6 +767,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.001,
@@ -741,6 +780,7 @@
               }
             },
             {
+              "id": null,
               "type": "ESTIMATION",
               "information": {
                 "MAX_STEPS_BEFORE_PROPERTY": 0,
@@ -772,18 +812,22 @@
       "testCases": [],
       "traces": [
         {
+          "id": null,
           "location": "traces/Agent_Lane_Left_Collision.prob2trace",
           "selected": true
         },
         {
+          "id": null,
           "location": "traces/Agent_Slowing_Down.prob2trace",
           "selected": true
         },
         {
+          "id": null,
           "location": "traces/Agent_Scenario_Base_Shield.prob2trace",
           "selected": true
         },
         {
+          "id": null,
           "location": "traces/Agent_Scenario_Higher_Penalty_Collision_Shield.prob2trace",
           "selected": true
         }
@@ -795,6 +839,7 @@
           "path": "HighwayEnvironment.py",
           "simulationItems": [
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.05,
@@ -808,6 +853,7 @@
               }
             },
             {
+              "id": null,
               "type": "ESTIMATION",
               "information": {
                 "MAX_STEPS_BEFORE_PROPERTY": 0,
@@ -821,6 +867,7 @@
               }
             },
             {
+              "id": null,
               "type": "ESTIMATION",
               "information": {
                 "MAX_STEPS_BEFORE_PROPERTY": 0,
@@ -834,6 +881,7 @@
               }
             },
             {
+              "id": null,
               "type": "ESTIMATION",
               "information": {
                 "MAX_STEPS_BEFORE_PROPERTY": 0,
@@ -847,6 +895,7 @@
               }
             },
             {
+              "id": null,
               "type": "ESTIMATION",
               "information": {
                 "MAX_STEPS_BEFORE_PROPERTY": 0,
@@ -860,6 +909,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.05,
@@ -873,6 +923,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.05,
@@ -886,6 +937,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.05,
@@ -899,6 +951,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.05,
@@ -912,6 +965,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.01,
@@ -924,6 +978,7 @@
               }
             },
             {
+              "id": null,
               "type": "MONTE_CARLO_SIMULATION",
               "information": {
                 "MAX_STEPS_BEFORE_PROPERTY": 0,
@@ -932,6 +987,7 @@
               }
             },
             {
+              "id": null,
               "type": "MONTE_CARLO_SIMULATION",
               "information": {
                 "MAX_STEPS_BEFORE_PROPERTY": 0,
@@ -945,6 +1001,7 @@
           "path": "Traces_Shield",
           "simulationItems": [
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.05,
@@ -963,6 +1020,7 @@
           "path": "HighwayEnvironment_Base.py",
           "simulationItems": [
             {
+              "id": null,
               "type": "MONTE_CARLO_SIMULATION",
               "information": {
                 "MAX_STEPS_BEFORE_PROPERTY": 0,
@@ -971,6 +1029,7 @@
               }
             },
             {
+              "id": null,
               "type": "MONTE_CARLO_SIMULATION",
               "information": {
                 "MAX_STEPS_BEFORE_PROPERTY": 0,
@@ -979,6 +1038,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.05,
@@ -1110,6 +1170,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.001,
@@ -1127,6 +1188,7 @@
           "path": "HighwayEnvironment_Higher_Penalty_Collision.py",
           "simulationItems": [
             {
+              "id": null,
               "type": "MONTE_CARLO_SIMULATION",
               "information": {
                 "MAX_STEPS_BEFORE_PROPERTY": 0,
@@ -1135,6 +1197,7 @@
               }
             },
             {
+              "id": null,
               "type": "MONTE_CARLO_SIMULATION",
               "information": {
                 "MAX_STEPS_BEFORE_PROPERTY": 0,
@@ -1143,6 +1206,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.05,
@@ -1282,6 +1346,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.001,
@@ -1300,6 +1365,7 @@
           "path": "Traces_Base_Shield",
           "simulationItems": [
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.01,
@@ -1312,6 +1378,7 @@
               }
             },
             {
+              "id": null,
               "type": "ESTIMATION",
               "information": {
                 "MAX_STEPS_BEFORE_PROPERTY": 0,
@@ -1324,6 +1391,7 @@
               }
             },
             {
+              "id": null,
               "type": "ESTIMATION",
               "information": {
                 "MAX_STEPS_BEFORE_PROPERTY": 0,
@@ -1336,6 +1404,7 @@
               }
             },
             {
+              "id": null,
               "type": "ESTIMATION",
               "information": {
                 "MAX_STEPS_BEFORE_PROPERTY": 0,
@@ -1348,6 +1417,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.01,
@@ -1360,6 +1430,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.01,
@@ -1372,6 +1443,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.01,
@@ -1384,6 +1456,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.01,
@@ -1396,6 +1469,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.01,
@@ -1408,6 +1482,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.001,
@@ -1420,6 +1495,7 @@
               }
             },
             {
+              "id": null,
               "type": "ESTIMATION",
               "information": {
                 "MAX_STEPS_BEFORE_PROPERTY": 0,
@@ -1437,6 +1513,7 @@
           "path": "Traces_Higher_Penalty_Collision_Shield",
           "simulationItems": [
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.01,
@@ -1449,6 +1526,7 @@
               }
             },
             {
+              "id": null,
               "type": "ESTIMATION",
               "information": {
                 "MAX_STEPS_BEFORE_PROPERTY": 0,
@@ -1461,6 +1539,7 @@
               }
             },
             {
+              "id": null,
               "type": "ESTIMATION",
               "information": {
                 "MAX_STEPS_BEFORE_PROPERTY": 0,
@@ -1473,6 +1552,7 @@
               }
             },
             {
+              "id": null,
               "type": "ESTIMATION",
               "information": {
                 "MAX_STEPS_BEFORE_PROPERTY": 0,
@@ -1485,6 +1565,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.01,
@@ -1497,6 +1578,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.01,
@@ -1509,6 +1591,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.01,
@@ -1521,6 +1604,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.01,
@@ -1533,6 +1617,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.01,
@@ -1545,6 +1630,7 @@
               }
             },
             {
+              "id": null,
               "type": "HYPOTHESIS_TEST",
               "information": {
                 "SIGNIFICANCE": 0.001,
@@ -1557,6 +1643,7 @@
               }
             },
             {
+              "id": null,
               "type": "ESTIMATION",
               "information": {
                 "MAX_STEPS_BEFORE_PROPERTY": 0,
@@ -1743,7 +1830,7 @@
   "metadata": {
     "fileType": "Project",
     "formatVersion": 38,
-    "savedAt": "2023-12-14T21:02:28.911849Z",
+    "savedAt": "2023-11-28T15:14:57.306607Z",
     "creator": "User",
     "proB2KernelVersion": "4.12.3-SNAPSHOT",
     "proBCliVersion": null,

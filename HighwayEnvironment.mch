@@ -24,6 +24,7 @@ VARIABLES
 INVARIANT
     Crash : BOOL &
     PresentVehicles : POW(Vehicles) &
+    EgoVehicle : Vehicles &
     VehiclesX : Vehicles --> REAL &
     VehiclesY : Vehicles --> REAL &
     VehiclesVx : Vehicles --> REAL &
@@ -34,7 +35,7 @@ INVARIANT
 
 INITIALISATION
     Crash :: BOOL ||
-    PresentVehicles :: POW(Vehicles) ||
+    PresentVehicles : (PresentVehicles : POW(Vehicles) & EgoVehicle : PresentVehicles) ||
     VehiclesX :: Vehicles --> REAL ||
     VehiclesY :: Vehicles --> REAL ||
     VehiclesVx :: Vehicles --> REAL ||
@@ -47,7 +48,7 @@ INITIALISATION
 OPERATIONS
   IDLE = BEGIN
     Crash :: BOOL ||
-    PresentVehicles :: POW(Vehicles) ||
+    PresentVehicles : (PresentVehicles : POW(Vehicles) & EgoVehicle : PresentVehicles) ||
     VehiclesX :: Vehicles --> REAL ||
     VehiclesY :: Vehicles --> REAL ||
     VehiclesVx :: Vehicles --> REAL ||
@@ -59,7 +60,7 @@ OPERATIONS
 
   LANE_LEFT = BEGIN
     Crash :: BOOL ||
-    PresentVehicles :: POW(Vehicles) ||
+    PresentVehicles : (PresentVehicles : POW(Vehicles) & EgoVehicle : PresentVehicles) ||
     VehiclesX :: Vehicles --> REAL ||
     VehiclesY :: Vehicles --> REAL ||
     VehiclesVx :: Vehicles --> REAL ||
@@ -71,7 +72,7 @@ OPERATIONS
 
   LANE_RIGHT = BEGIN
     Crash :: BOOL ||
-    PresentVehicles :: POW(Vehicles) ||
+    PresentVehicles : (PresentVehicles : POW(Vehicles) & EgoVehicle : PresentVehicles) ||
     VehiclesX :: Vehicles --> REAL ||
     VehiclesY :: Vehicles --> REAL ||
     VehiclesVx :: Vehicles --> REAL ||
@@ -83,7 +84,7 @@ OPERATIONS
 
   FASTER = BEGIN
     Crash :: BOOL ||
-    PresentVehicles :: POW(Vehicles) ||
+    PresentVehicles : (PresentVehicles : POW(Vehicles) & EgoVehicle : PresentVehicles) ||
     VehiclesX :: Vehicles --> REAL ||
     VehiclesY :: Vehicles --> REAL ||
     VehiclesVx :: Vehicles --> REAL ||
@@ -95,7 +96,7 @@ OPERATIONS
 
   SLOWER = BEGIN
     Crash :: BOOL ||
-    PresentVehicles :: POW(Vehicles) ||
+    PresentVehicles : (PresentVehicles : POW(Vehicles) & EgoVehicle : PresentVehicles) ||
     VehiclesX :: Vehicles --> REAL ||
     VehiclesY :: Vehicles --> REAL ||
     VehiclesVx :: Vehicles --> REAL ||
